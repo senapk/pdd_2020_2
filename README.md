@@ -1,1 +1,3 @@
-# pdd_2020_2
+# Repositório de Códigos da Turma de POO para Desing
+
+## S01E01 - Introdução
