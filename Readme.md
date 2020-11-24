@@ -10,7 +10,7 @@
 
 ## Links
 - [Planilha de notas](https://docs.google.com/spreadsheets/d/1jw7zMiuLVpeKnSWvP5cngfrpXk8GShEfGtrtuVYr3_k/edit?usp=sharing)
-- [Grupo do Discord](discord.gg/Ct67jn2EX7)
+- Grupo do Discord - discord.gg/Ct67jn2EX7
 - [Pasta com as aulas gravadas](https://drive.google.com/drive/folders/15nc52-kWPPCpvlEPLj5Vr-ZDDS7Ts_Kv?usp=sharing)
 - [Apostila Caelum](https://www.caelum.com.br/apostila-java-orientacao-objetos/)
 - [ Playlist Java Gafanhoto](https://www.youtube.com/playlist?list=PLHz_AreHm4dkqe2aR0tQK74m8SFe-aGsY)
