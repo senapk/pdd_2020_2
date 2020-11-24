@@ -1,4 +1,6 @@
-# Repositório da Disciplina de POO 2020.2
+# Repositório da Disciplina de POO para DD 2020.2
+
+**Vai passar todo mundo com 10.0**
 
 ## Índice []()
 <!--TOC_BEGIN-->
