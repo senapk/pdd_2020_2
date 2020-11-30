@@ -7,6 +7,8 @@
 - [Links](#links)
 - [S01E01 - Negociações](#s01e01---negociações)
 - [S01E02 - Git](#s01e02---git)
+- [S02E01 - Java Inicio](#s02e01---java-inicio)
+- [S02E01 - Java Exercício](#s02e01---java-exercício)
 
 <!--TOC_END-->
 
@@ -36,4 +38,26 @@
     - [ ] Seguir o tutorial do git na pasta S01E01 e criar seu repositório.
     - [ ] No seu repositório crie a pasta **Projeto 01 Inicio**
     - [ ] Seguindo a apostila da Caelum, testar a instalação do java e enviar algum código java para essa pasta.
+
+## S02E01 - Java Inicio
+- Classwork
+    - Entender a estrutura básica do código java
+    - Construtores, atributos, métodos, main
+- Homework
+    - [ ] Estudar e melhorar o código do Calango ou tentar criar seu próprio projeto.
+    - Você pode colocar seus códigos na pasta **Projeto 02 Java** do seu git
+
+## S02E01 - Java Exercício
+- Lecture
+    - Ler o capítulo 4 da apostila da Caelum.
+- Classwork
+    - [ ] Aprender a fazer código interativo e treinar
+- Homework
+    - Opção 1: Fazer o projeto do [Carro](https://github.com/qxcodepoo/arcade/blob/master/base/002/Readme.md).
+    - Opção 2: Iniciar um projeto do zero à sua escolha. Seu projeto deve ter no mínimo:
+        - Uma classe, Construtor, 3 atributos, 4 métodos, método toString, main
+    - Opção 3: Continuar melhorando seu projeto do Calango adicionando novos comportamentos e atributos. 
+- [ ] Colocar seus códigos na pasta **Projeto 02 Java**.
+- [ ] Fazer um relatório dos seus estudos da semana no arquivo Readme.md dessa pasta.
+    - No relatório deve ter : 1) o que fez, 2) com quem fez, 3) como fez, 4) o que aprendeu e o que tem dificuldade 5) quanto tempo levou.
 
