@@ -1,7 +1,20 @@
 
 public class Calango{
-    int energia = 2; //atributo -> estado
-    int nPatas = 4;
+    int energia; //atributo -> estado
+    int maxEnergia;
+    int nPatas;
+    boolean estaVivo;
+    boolean temRabo;
+
+    //parametros
+    Calango(int energia, int nPatas){
+        this.energia = energia;
+        this.maxEnergia = energia;
+        this.nPatas = nPatas;
+        this.estaVivo = true;
+        this.temRabo = true;
+    }
+
 
     void correr(){ //métodos -> comportamento
         if(nPatas < 2){
@@ -25,12 +38,21 @@ public class Calango{
     }
 
     void regenerar(){
+        if(nPatas < 4){
+            nPatas += 1;
+            System.out.println("RAPAZZ! Brotou uma pata!");
+        }else{
+            System.out.println("Já tenho 4 patinhas fofinhas");
+        }
         
     }
 
-    void descansar(){
+    void descansar(int turnos){
         System.out.println("Descansando!");
-        energia += 1;
+        energia += turnos;
+
+        if(energia > maxEnergia)
+            energia = maxEnergia;
     }
 
     //metodo que informa como o meu objeto deve ser convertido para Texto
@@ -40,22 +62,21 @@ public class Calango{
 
     public static void main(String[] args) { 
         //tipo nome_da_referencia;
-        Calango deadpool = new Calango(); //energia 2
-        deadpool.descansar();
-        deadpool.descansar();
-        deadpool.descansar();
-        System.out.println(deadpool); //energia 5
+        Calango deadpool = new Calango(10, 8);
+        System.out.println(deadpool);
 
-        deadpool.correr();//energia 4
-        deadpool.brigar();//3
-        deadpool.correr();//energia 3
-        deadpool.brigar();//2
-        deadpool.correr();//energia 2, patas 2
-        deadpool.brigar();//
-        deadpool.correr();//nao corre, pois so tem uma pata
-        System.out.println(deadpool); //energia 3, 1 pata
-        deadpool.brigar();
-        deadpool.brigar();
-        deadpool.brigar();
+        for(int i = 0; i < 50; i++)
+            deadpool.correr();
+        
+        System.out.println(deadpool);
+        deadpool.descansar(60);
+        System.out.println(deadpool);
+
+
+        deadpool.regenerar();
+        deadpool.regenerar();
+        deadpool.regenerar();
+        deadpool.regenerar();
+        System.out.println(deadpool);
     }
 }
