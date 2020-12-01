@@ -55,7 +55,7 @@
 - Homework
     - Opção 1: Fazer o projeto do [Carro](https://github.com/qxcodepoo/arcade/blob/master/base/002/Readme.md).
     - Opção 2: Iniciar um projeto do zero à sua escolha. Seu projeto deve ter no mínimo:
-        - Uma classe, Construtor, 3 atributos, 4 métodos, método toString, main
+        - Uma classe, Construtor, 3 atributos, 4 métodos, método toString, main interativa
     - Opção 3: Continuar melhorando seu projeto do Calango adicionando novos comportamentos e atributos. 
 - [ ] Colocar seus códigos na pasta **Projeto 02 Java**.
 - [ ] Fazer um relatório dos seus estudos da semana no arquivo Readme.md dessa pasta.
