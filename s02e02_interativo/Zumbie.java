@@ -1,4 +1,5 @@
 public class Zumbie {
+    String nome;
     int resistencia;
     int maxResistencia;
     int vida;
