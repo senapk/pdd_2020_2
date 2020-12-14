@@ -8,11 +8,11 @@ public class Mago {
         this.magia = magia;
         this.mana = mana;
     }
+
     void lancarMagia(String magia, int forca){
         if(this.magia.equals(magia)){
             if(this.mana >= forca){
-                System.out.println("contemplem o mago, com seus poderes");
-                System.out.println("Incriveis podereessssssssssssssssss");
+                System.out.println("contemplem o mago, com seus poderes, incríveis poderesssssss");
                 this.mana -= forca;
             }else{
                 System.out.println("Mana insuficiente");
@@ -21,6 +21,7 @@ public class Mago {
             System.out.println("Nao sei essa magia");
         }
     }
+
     public String toString(){
         return "Nome: " + nome + " Magia: " + magia + " Mana: " + mana;
     }
@@ -50,15 +51,4 @@ public class Mago {
         scanner.close();
     }
 }
-/*
-init Patolino
-show
-Name: Patolino
-init Ahsoka Tano
-show
-Name: Ahsoka Tano
-end
-atirar fogo 5
-*/
-
 
