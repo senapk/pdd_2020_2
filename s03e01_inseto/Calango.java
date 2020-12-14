@@ -1,4 +1,8 @@
-class Inseto{
+enum Inseto{
+    Mosca(1, 1), //constantes
+    Barata(3, 10), 
+    Caranguejeira(5, 200);
+
     int tamanho;
     int energia;
 
@@ -11,6 +15,25 @@ class Inseto{
     }
 }
 
+enum Mes{
+    Janeiro("Janeiro", 1),
+    Fevereiro("Fevereiro", 2);
+
+    String nome; 
+    int valor;
+
+    Mes(String nome, int valor){
+        this.nome = nome;
+        this.valor = valor;
+    }
+    public String toString() {
+        return nome + ":" + valor;
+    }
+}
+
+enum Sexo{
+    Masculino, Feminino;
+}
 
 public class Calango{
     Inseto bucho;
@@ -19,15 +42,17 @@ public class Calango{
     int nPatas;
     boolean estaVivo;
     boolean temRabo;
+    Sexo sexo;
 
     //parametros
-    Calango(int energia, int nPatas){
+    Calango(int energia, int nPatas, Sexo sexo){
         this.energia = energia;
         this.maxEnergia = energia;
         this.nPatas = nPatas;
         this.estaVivo = true;
         this.temRabo = true;
         this.bucho = null;
+        this.sexo = sexo;
     }
 
     void comer(Inseto inseto){
@@ -111,16 +136,25 @@ public class Calango{
         }
     }
 
+    public void engravidar(Calango macho){
+        if(this.sexo != Sexo.Feminino){
+            //erro esse calango eh macho
+        }
+        if(macho.sexo != Sexo.Masculino){
+            //erro 
+        }
+    }
+
     //metodo que informa como o meu objeto deve ser convertido para Texto
     public String toString() {
         return "Calango : energia:" + energia + " patas:" + nPatas + " rabo:" + temRabo + " bucho:" + bucho;
     }
 
     public static void main(String[] args) { 
-        Calango jeff = new Calango(20, 4);
+        Calango jeff = new Calango(20, 4, Sexo.Masculino);
         jeff.correr(10);
         System.out.println(jeff);
-        Calango karl = new Calango(15, 3);
+        Calango karl = new Calango(15, 3, Sexo.Feminino);
 
         jeff.brigar(karl);
         jeff.brigar(karl);
@@ -129,7 +163,7 @@ public class Calango{
         System.out.println(karl);
 
         //karl lango fugiu
-        Inseto murrissokka = new Inseto(1, 3);
+        Inseto murrissokka = Inseto.Mosca;
         karl.comer(murrissokka);
         System.out.println(karl);
         karl.digerir();
@@ -137,7 +171,7 @@ public class Calango{
         karl.regenerar();
         System.out.println(karl);
         jeff.correr(10);
-        Inseto barataCascuta = new Inseto(20, 50);
+        Inseto barataCascuta = Inseto.Barata;
         karl.comer(barataCascuta);
         Inseto fugitivo = karl.vomitar();
 

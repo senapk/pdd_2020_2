@@ -120,14 +120,13 @@
 - Goal
     - Ver o tipo Enum
     - Praticar 
-- 
 
 ## S04E01 - Encapsulamento - Tamagotchi
 - Read
     - [ ] Caelum: Capítulo 5
 - Goal
     - Aprender sobre: Encapsumento, modificadores de acesso, gets e sets e métodos static
-    - Construir o modelo do Pokemon [LINK](s04e01_encapsulamento/Buba.java)
+    - Construir o modelo do Pokemon [LINK](s04e01_encapsulamento/Aula.java)
 - Home
     - [ ] Fazer o projeto do Tamagotchi [LINK](https://github.com/qxcodepoo/arcade/blob/master/base/006/Readme.md#shell)
 
