@@ -149,14 +149,15 @@
 
 ## S05E01 - Lógica
 - Goal
-    - Treinar lógica de programação com o Projeto @007 Tarifas.
+    - Treinar lógica de programação com o Projeto Contato.
 - Home
-    - `@011 JunkFood` 
+    - Estudar e refazer o contato
 
 ## S05E02 - Null
 - Goal
     - Entender melhor Vetores e Null com o Projeto `@010 Sala de Cinema`.
 - Home
+    - `@011 JunkFood` 
     - `@012 Topic` 
 
 ## S06E01 - Revisão
