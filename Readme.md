@@ -126,9 +126,10 @@
     - [ ] Caelum: Capítulo 5
 - Goal
     - Aprender sobre: Encapsumento, modificadores de acesso, gets e sets e métodos static
-    - Construir o modelo do Pokemon [LINK](s04e01_encapsulamento/Aula.java)
+    - Construir o modelo do Pokemon [LINK](s04e01_encapsulamento/Buba.java)
 - Home
     - [ ] Fazer o projeto do Tamagotchi [LINK](https://github.com/qxcodepoo/arcade/blob/master/base/006/Readme.md#shell)
+    - Colocar na pasta **Projeto 04 Tamagotchi**
 
 ## S04E02 - ArrayList - Tripas
 - Read
@@ -139,51 +140,59 @@
     - Aprender como funcionam os Arrays e os Arraylists em Java
     - Aprender as operações básicas de inserir, percorrer, listar, remover no Arrayslist
     - Ver como podemos utilizar ArrayLists para armazenar objetos e manipular objetos
+- Home (EXTRA)
+    - Fazer projeto sobre Vetores: Sugestão `@014 Contato`
+        - Colocar na pasta **Projeto 05 Contato** e fazer o relatório
+
+## S05E01 - ArrayList II
+- Goal
+    - Treinar manipulação de objetos em Listas com o `@014 Contato`
+
+## S05E02 - Manipular elementos entre lista
+- Goal
+    - Treinar lógica de programação com o Projeto @009 Pula Pula.
 - Home
-    - Fazer projeto sobre Vetores: Sugestão `@014 Contato` ou `@009 Pula Pula`.
+    - Sugestão `Projeto Tarifas` ou `Projeto JunkFood`.
         - Mínimo de 2 classes, construtores, toStrings.
         - Manipulação de objetos no vetor: inserção, remoção, busca.
-        - Deve existir uma relação de Agregação (uma classe conter a outra) e manipulação do objeto.
-    - [ ] Colocar seus códigos na pasta **Projeto 04 ArrayList**.
-    - [ ] Fazer o relatório
+        - Deve existir uma relação de Agregação ou Composição(uma classe conter pelo menos um Array da outra).
+    - [ ] Colocar seus códigos na pasta **Projeto 06 ArrayList** e fazer o relatório
 
-## S05E01 - Lógica
-- Goal
-    - Treinar lógica de programação com o Projeto Contato.
-- Home
-    - Estudar e refazer o contato
+<!--
 
-## S05E02 - Null
+## S06E01 - Null []()
 - Goal
     - Entender melhor Vetores e Null com o Projeto `@010 Sala de Cinema`.
 - Home
-    - `@011 JunkFood` 
+    - `@011 JunkFood`
     - `@012 Topic` 
 
-## S06E01 - Revisão
+## S06E01 - Revisão []()
 - Goal
     - Revisão recriando o projeto Junkfood e Topic
 
-## S06E02 - Sort
+## S06E02 - Sort []()
 - Goal
     - Ordenação, Equals, Comparable, Comparator e Sort.
 - Home
     - `@015 Busca` ou `@024 Mensagens`
 
-## S07E01 - Maps
+## S07E01 - Maps []()
 - Goal
     - Aprender como utilizar estruturas chave valor como Maps.
 
-## S07E02 - Integridade
+## S07E02 - Integridade []()
 - Goal
     - Entender a importância e o problema das redundâncias na integridade.
     - Projeto `@016 Favoritos`
 
-## S08 - Excessões
+## S08 - Excessões []()
 - Goal
 
-## S09 - Herança
+## S09 - Herança []()
 
-## S10 - Herança II
+## S10 - Herança II []()
 
-## S11 - NxN
+## S11 - NxN  []()
+
+-->
