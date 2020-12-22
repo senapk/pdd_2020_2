@@ -10,6 +10,13 @@ class Fone{
     public String toString(){
         return label + ":" + number;
     }
+    static boolean validar(String number){
+        String validos = "0123456789()-";
+        for(int i = 0; i < number.size(); i++)
+            if(!validos.contains("" + number.charAt(i)))
+                return false;
+        return true;
+    }
 }
 
 public class Contato{
@@ -22,6 +29,10 @@ public class Contato{
     }
 
     public void addFone(String label, String number){
+        if(!Fone.validar(number)){
+            System.out.println("fail: numero invalido");
+            return;
+        }
         fones.add(new Fone(label, number));
     }
 
@@ -48,6 +59,27 @@ public class Contato{
         for(Fone fone : fones){
             if(fone.label.equals(label)){
                 return fone;
+            }
+        }
+        return null;
+    }
+
+    Fone rmFone(int index){
+        if (index < 0 || index >= fones.size()){
+            System.out.println("fail: indice invalido");
+            return null;
+        }
+        Fone aux = fones.get(index);
+        fones.remove(index);
+        return aux;
+    }
+
+    Fone rmFone(String number){
+        for(Fone fone : fones){
+            if(fone.number.equals(number)){
+                Fone aux = fone;
+                fones.remove(fone);
+                return aux;
             }
         }
         return null;
@@ -82,6 +114,8 @@ public class Contato{
             }
         }
         scanner.close();
+
+        Fone.validar("8747324.");
     }
 }
 
