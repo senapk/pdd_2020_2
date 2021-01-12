@@ -12,16 +12,10 @@
 - [S03E02 - Cofre](#s03e02---cofre)
 - [S04E01 - Encapsulamento - Tamagotchi](#s04e01---encapsulamento---tamagotchi)
 - [S04E02 - ArrayList - Tripas](#s04e02---arraylist---tripas)
-- [S05E01 - Lógica](#s05e01---lógica)
-- [S05E02 - Null](#s05e02---null)
-- [S06E01 - Revisão](#s06e01---revisão)
-- [S06E02 - Sort](#s06e02---sort)
-- [S07E01 - Maps](#s07e01---maps)
-- [S07E02 - Integridade](#s07e02---integridade)
-- [S08 - Excessões](#s08---excessões)
-- [S09 - Herança](#s09---herança)
-- [S10 - Herança II](#s10---herança-ii)
-- [S11 - NxN](#s11---nxn)
+- [S05E01 - ArrayList II](#s05e01---arraylist-ii)
+- [S05E02 - Manipular elementos entre lista](#s05e02---manipular-elementos-entre-lista)
+- [S06E01 - Vetores de Null](#s06e01---vetores-de-null)
+- [S06E02 - Vetores de Null](#s06e02---vetores-de-null)
 
 <!--TOC_END-->
 
@@ -158,6 +152,15 @@
         - Deve existir uma relação de Agregação ou Composição(uma classe conter pelo menos um Array da outra).
     - [ ] Colocar seus códigos na pasta **Projeto 06 ArrayList** e fazer o relatório
 
+## S06E01 - Vetores de Null
+- Goal
+    - Entender melhor Vetores e Null com o Projeto `@010 Sala de Cinema`.
+
+## S06E02 - Vetores de Null
+- Goal
+    - Continuação do projeto Cinema
+- Home
+    - `@012 Topic` 
 <!--
 
 ## S06E01 - Null []()
