@@ -16,6 +16,8 @@
 - [S05E02 - Manipular elementos entre lista](#s05e02---manipular-elementos-entre-lista)
 - [S06E01 - Vetores de Null](#s06e01---vetores-de-null)
 - [S06E02 - Vetores de Null](#s06e02---vetores-de-null)
+- [S07E01 - Sort](#s07e01---sort)
+- [S07E02 - 3 camadas](#s07e02---3-camadas)
 
 <!--TOC_END-->
 
@@ -161,6 +163,28 @@
     - Continuação do projeto Cinema
 - Home
     - `@012 Topic` 
+
+## S07E01 - Sort
+- Goal
+    - Ordenação, Equals, Comparable, Comparator e Sort.
+    - Ordenação usando dois critérios
+    - Entendendo interfaces
+
+
+## S07E02 - 3 camadas
+- Goal
+    - `@024 - Mensagens`
+    - Aprender um modelo simplificado de troca de mensagens
+    - Compartilhando objetos entre ArrayLists
+    - Usando id único
+    - Usando contador de não lidos
+    - Trocando mensagem diretamente entre objetos usuários
+    - Implementando um sistema de gestão de usuários
+    - Dividindo as responsabilidades: Sistema, Usuario, Msg
+    - Colocando o sistema para gerenciar os ids da msgs
+- Home
+    - `@015-Busca`
+    
 <!--
 
 ## S06E01 - Null []()
