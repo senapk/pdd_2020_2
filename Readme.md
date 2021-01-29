@@ -18,6 +18,8 @@
 - [S06E02 - Vetores de Null](#s06e02---vetores-de-null)
 - [S07E01 - Sort](#s07e01---sort)
 - [S07E02 - 3 camadas](#s07e02---3-camadas)
+- [S08E01 - Revisão](#s08e01---revisão)
+- [S08E02 - Mapas](#s08e02---mapas)
 
 <!--TOC_END-->
 
@@ -185,6 +187,14 @@
 - Home
     - `@015-Busca`
     
+## S08E01 - Revisão
+
+## S08E02 - Mapas
+- Goal
+    - Entender o funcionamento dos mapas
+- Home
+    - `Favoritos`
+
 <!--
 
 ## S06E01 - Null []()
