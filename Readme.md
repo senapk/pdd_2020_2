@@ -20,6 +20,8 @@
 - [S07E02 - 3 camadas](#s07e02---3-camadas)
 - [S08E01 - Revisão](#s08e01---revisão)
 - [S08E02 - Mapas](#s08e02---mapas)
+- [S09E01 - Exceções](#s09e01---exceções)
+- [S09E02 - Polimorfismo](#s09e02---polimorfismo)
 
 <!--TOC_END-->
 
@@ -194,6 +196,26 @@
     - Entender o funcionamento dos mapas
 - Home
     - `Favoritos`
+
+## S09E01 - Exceções
+- Goal
+    - Entender como funcionam excessões e como utilizá-las para gerenciar erros
+
+## S09E02 - Polimorfismo
+- Goal
+    - Compreender o funcionamento de interfaces e herança no polimorfismo.
+- Home
+    - Obrigatório
+        - Implementar um projeto à usa escolha que contenha:
+            - Uso de interfaces
+            - Uso de herança
+            - Sobrescrita de método
+            - Invocação de construtores em cadeia
+        - Pegar um projeto antigo seu e adaptar para o modelo de excessões
+            - Uso de excessões para lançar erros
+        - Treine, teste, use sua imaginação para brincar com os conteúdos.
+    - Opcional
+        - `@028 Bilheteria`
 
 <!--
 
